@@ -4,13 +4,12 @@ from modules.model_tools import *
 # External modules
 import time
 from os import listdir
-#from IPython.display import display
 
 if __name__ == '__main__':
 
     # DB connection strings
-    libpq_conn = "dbname=secret user=secret password=secret host=00.00.0.000 port=0000"
-    sql_alchemy_conn = 'postgresql+psycopg2://postgres:postgres@10.10.1.119/db_agroterra'
+    #libpq_conn = "dbname=secret user=secret password=secret host=00.00.0.000 port=0000"
+    #sql_alchemy_conn = 'postgresql+psycopg2://secret:secret@00.00.0.000/secret'
 
     # Clear the db tables for testing
     '''execute_sql_query(libpq_conn, "DELETE FROM at_python.out_field_matrix")
